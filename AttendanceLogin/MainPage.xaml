@@ -1,0 +1,51 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AttendanceLogin.MainPage"
+             BackgroundColor="White"
+             Padding="30">
+
+    <VerticalStackLayout Spacing="20"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                         WidthRequest="300">
+        <!-- Login Label -->
+        <Label Text="Login"
+               FontSize="32"
+               HorizontalOptions="Center"
+               TextColor="Black" />
+
+        <!-- Real-time Date and Time -->
+        <Label x:Name="TimeLabel"
+               FontSize="16"
+               HorizontalOptions="Center"
+               TextColor="Gray" />
+        
+        <!-- Username Entry -->
+        <Entry x:Name="usernameEntry"
+               Placeholder="Username"
+               TextColor="Black"
+               PlaceholderColor="Gray"
+               BackgroundColor="White" />
+
+        <!-- Password Entry -->
+        <Entry x:Name="passwordEntry"
+               Placeholder="Password"
+               IsPassword="True"
+               TextColor="Black"
+               PlaceholderColor="Gray"
+               BackgroundColor="White" />
+
+        <!-- Login Button -->
+        <Button Text="Login"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Clicked="OnLoginClicked" />
+
+        <!-- Sign In Button -->
+        <Button Text="Sign In"
+                BackgroundColor="Green"
+                TextColor="White"
+                Clicked="OnSignInClicked" />
+        
+    </VerticalStackLayout>
+</ContentPage>

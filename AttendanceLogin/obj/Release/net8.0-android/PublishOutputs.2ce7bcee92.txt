@@ -1,0 +1,3 @@
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Release\net8.0-android\publish\com.companyname.attendancelogin-Signed.apk
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Release\net8.0-android\publish\com.companyname.attendancelogin.apk
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Release\net8.0-android\publish\_Microsoft.Android.Resource.Designer.dll

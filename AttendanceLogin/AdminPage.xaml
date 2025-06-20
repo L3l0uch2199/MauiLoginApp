@@ -1,0 +1,54 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AttendanceLogin.AdminPage"
+             Title="Admin Panel"
+             BackgroundColor="White"
+             Padding="20">
+
+    <VerticalStackLayout Spacing="10">
+
+        <Label Text="Registered Users"
+               FontSize="28"
+               HorizontalOptions="Center"
+               TextColor="DarkBlue" />
+
+        <CollectionView x:Name="usersCollectionView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="5">
+                        <Grid ColumnDefinitions="*,Auto"
+                      RowDefinitions="Auto, Auto"
+                      ColumnSpacing="10" RowSpacing="2">
+
+                            <!-- Username -->
+                            <Label Grid.Row="0" Grid.Column="0"
+                           Text="{Binding Username}"
+                           FontAttributes="Bold"
+                           FontSize="16" />
+
+                            <!-- Email -->
+                            <Label Grid.Row="1" Grid.Column="0"
+                           Text="{Binding Email}"
+                           FontSize="13"
+                           TextColor="Gray" />
+
+                            <!-- Delete button only if not admin -->
+                            <Button Grid.Row="0" Grid.Column="1"
+                            Grid.RowSpan="2"
+                            Text="Delete"
+                            TextColor="White"
+                            BackgroundColor="Red"
+                            Padding="8"
+                            CornerRadius="10"
+                            VerticalOptions="Center"
+                            IsVisible="{Binding IsDeletable}"
+                            Clicked="OnDeleteClicked"
+                            CommandParameter="{Binding}" />
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>
