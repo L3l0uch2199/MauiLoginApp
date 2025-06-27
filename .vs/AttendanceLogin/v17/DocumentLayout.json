@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50ADC1A4-1C50-4D7D-BDE7-EF4E04585AC3}|AttendanceLogin\\AttendanceLogin.csproj|c:\\users\\pdsrvr2\\source\\repos\\attendancelogin\\attendancelogin\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50ADC1A4-1C50-4D7D-BDE7-EF4E04585AC3}|AttendanceLogin\\AttendanceLogin.csproj|solutionrelative:attendancelogin\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FBC1F70-BABA-4E02-BAF3-4D67EE5FD7DA}|AttendanceLoginAPI\\AttendanceLoginAPI.csproj|c:\\users\\pdsrvr2\\source\\repos\\attendancelogin\\attendanceloginapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBC1F70-BABA-4E02-BAF3-4D67EE5FD7DA}|AttendanceLoginAPI\\AttendanceLoginAPI.csproj|solutionrelative:attendanceloginapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50ADC1A4-1C50-4D7D-BDE7-EF4E04585AC3}|AttendanceLogin\\AttendanceLogin.csproj|c:\\users\\pdsrvr2\\source\\repos\\attendancelogin\\attendancelogin\\signinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50ADC1A4-1C50-4D7D-BDE7-EF4E04585AC3}|AttendanceLogin\\AttendanceLogin.csproj|solutionrelative:attendancelogin\\signinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50ADC1A4-1C50-4D7D-BDE7-EF4E04585AC3}|AttendanceLogin\\AttendanceLogin.csproj|c:\\users\\pdsrvr2\\source\\repos\\attendancelogin\\attendancelogin\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50ADC1A4-1C50-4D7D-BDE7-EF4E04585AC3}|AttendanceLogin\\AttendanceLogin.csproj|solutionrelative:attendancelogin\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FBC1F70-BABA-4E02-BAF3-4D67EE5FD7DA}|AttendanceLoginAPI\\AttendanceLoginAPI.csproj|c:\\users\\pdsrvr2\\source\\repos\\attendancelogin\\attendanceloginapi\\attendanceloginapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1FBC1F70-BABA-4E02-BAF3-4D67EE5FD7DA}|AttendanceLoginAPI\\AttendanceLoginAPI.csproj|solutionrelative:attendanceloginapi\\attendanceloginapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLogin\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "AttendanceLogin\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLogin\\MainPage.xaml.cs",
-              "RelativeToolTip": "AttendanceLogin\\MainPage.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwBkAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLoginAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AttendanceLoginAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLoginAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AttendanceLoginAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T05:25:41.728Z"
+              "WhenOpened": "2025-06-27T08:03:33.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SignInPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLogin\\SignInPage.xaml.cs",
-              "RelativeDocumentMoniker": "AttendanceLogin\\SignInPage.xaml.cs",
-              "ToolTip": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLogin\\SignInPage.xaml.cs",
-              "RelativeToolTip": "AttendanceLogin\\SignInPage.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T05:25:07.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLogin\\AdminPage.xaml.cs",
-              "RelativeDocumentMoniker": "AttendanceLogin\\AdminPage.xaml.cs",
-              "ToolTip": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLogin\\AdminPage.xaml.cs",
-              "RelativeToolTip": "AttendanceLogin\\AdminPage.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T05:52:09.868Z",
+              "Title": "AttendanceLoginAPI",
+              "DocumentMoniker": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLoginAPI\\AttendanceLoginAPI.csproj",
+              "RelativeDocumentMoniker": "AttendanceLoginAPI\\AttendanceLoginAPI.csproj",
+              "ToolTip": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLoginAPI\\AttendanceLoginAPI.csproj",
+              "RelativeToolTip": "AttendanceLoginAPI\\AttendanceLoginAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-27T07:59:48.342Z",
               "EditorCaption": ""
             }
           ]

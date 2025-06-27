@@ -18,7 +18,7 @@ public partial class AdminPage : ContentPage
     {
         try
         {
-            string connectionString = "Server=192.168.0.79,1433;Database=Users;User Id=mauiuser;Password=maui1234;TrustServerCertificate=True;";
+            string connectionString = "Server=192.168.0.63,1433;Database=Users;User Id=mauiuser;Password=maui1234;TrustServerCertificate=True;";
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 await conn.OpenAsync();
@@ -55,7 +55,7 @@ public partial class AdminPage : ContentPage
 
             try
             {
-            string connectionString = "Server=192.168.0.79,1433;Database=Users;User Id=mauiuser;Password=maui1234;TrustServerCertificate=True;";
+            string connectionString = "Server=192.168.0.63,1433;Database=Users;User Id=mauiuser;Password=maui1234;TrustServerCertificate=True;";
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     await conn.OpenAsync();
