@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kW+8w7fjULY=",
+  "dgSpecHash": "DjTBt4jyaUw=",
   "success": true,
   "projectFilePath": "C:\\Users\\PDSRVR2\\source\\repos\\AttendanceLogin\\AttendanceLogin\\AttendanceLogin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
@@ -63,6 +64,16 @@
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\runtime.unix.system.private.uri\\4.3.0\\runtime.unix.system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\runtime.win.system.diagnostics.debug\\4.3.0\\runtime.win.system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\runtime.win7.system.private.uri\\4.3.0\\runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp\\3.119.0\\skiasharp.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.nativeassets.android\\3.119.0\\skiasharp.nativeassets.android.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.nativeassets.ios\\3.119.0\\skiasharp.nativeassets.ios.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.nativeassets.maccatalyst\\3.119.0\\skiasharp.nativeassets.maccatalyst.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.119.0\\skiasharp.nativeassets.win32.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.nativeassets.winui\\3.119.0\\skiasharp.nativeassets.winui.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.views\\3.119.0\\skiasharp.views.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.views.maui.controls\\3.119.0\\skiasharp.views.maui.controls.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.views.maui.core\\3.119.0\\skiasharp.views.maui.core.3.119.0.nupkg.sha512",
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\skiasharp.views.winui\\3.119.0\\skiasharp.views.winui.3.119.0.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.1\\system.configuration.configurationmanager.8.0.1.nupkg.sha512",
@@ -184,14 +195,9 @@
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.android.runtime.34.android-x86\\34.0.154\\microsoft.android.runtime.34.android-x86.34.0.154.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.ios.ref.net8.0_18.0\\18.0.8324\\microsoft.ios.ref.net8.0_18.0.18.0.8324.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0\\18.0.8324\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0.18.0.8324.nupkg.sha512",
-    "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-arm64.net8.0_18.0\\18.0.8324\\microsoft.maccatalyst.runtime.maccatalyst-arm64.net8.0_18.0.18.0.8324.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0\\18.0.8324\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0.18.0.8324.nupkg.sha512",
     "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.maccatalyst.ref.net8.0_18.0\\18.0.8324\\microsoft.maccatalyst.ref.net8.0_18.0.18.0.8324.nupkg.sha512",
-    "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.16\\microsoft.netcore.app.crossgen2.win-x64.8.0.16.nupkg.sha512",
-    "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
-    "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.16\\microsoft.aspnetcore.app.runtime.win-x64.8.0.16.nupkg.sha512",
-    "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.16.nupkg.sha512",
-    "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.16\\microsoft.netcore.app.runtime.win-x64.8.0.16.nupkg.sha512"
+    "C:\\Users\\PDSRVR2\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
   ],
   "logs": []
 }

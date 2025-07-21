@@ -3,6 +3,7 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-m
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\AttendanceLogin.pdb
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Azure.Core.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Azure.Identity.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Bcl.Cryptography.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Data.SqlClient.dll
@@ -32,6 +33,10 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-m
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.SqlServer.Server.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.iOS.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Core.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ClientModel.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Configuration.ConfigurationManager.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.EventLog.dll
@@ -86,6 +91,7 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-m
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSkiaSharp.framework.zip
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -290,10 +296,6 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-m
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
-C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
@@ -332,6 +334,7 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-m
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AttendanceLogin.AssemblyInfoInputs.cache
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AttendanceLogin.AssemblyInfo.cs
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AttendanceLogin.csproj.CoreCompileInputs.cache
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AttendanceLogin.sourcelink.json
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\XamlC.stamp
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\Attendan.5F6BA3EC.Up2Date
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AttendanceLogin.dll

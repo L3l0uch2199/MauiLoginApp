@@ -4,5 +4,68 @@
         <name>AttendanceLogin</name>
     </assembly>
     <members>
+        <member name="T:AttendanceLogin.ViewModels.DashboardViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AttendanceLogin.ViewModels.DashboardViewModel.TimeIn">
+            <inheritdoc cref="F:AttendanceLogin.ViewModels.DashboardViewModel.timeIn"/>
+        </member>
+        <member name="P:AttendanceLogin.ViewModels.DashboardViewModel.ImageBase64">
+            <inheritdoc cref="F:AttendanceLogin.ViewModels.DashboardViewModel.imageBase64"/>
+        </member>
+        <member name="P:AttendanceLogin.ViewModels.DashboardViewModel.SignatureBase64">
+            <inheritdoc cref="F:AttendanceLogin.ViewModels.DashboardViewModel.signatureBase64"/>
+        </member>
+        <member name="F:AttendanceLogin.ViewModels.DashboardViewModel.timeInActionCommand">
+            <summary>The backing field for <see cref="P:AttendanceLogin.ViewModels.DashboardViewModel.TimeInActionCommand"/>.</summary>
+        </member>
+        <member name="P:AttendanceLogin.ViewModels.DashboardViewModel.TimeInActionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AttendanceLogin.ViewModels.DashboardViewModel.TimeInAction"/>.</summary>
+        </member>
+        <member name="F:AttendanceLogin.ViewModels.DashboardViewModel.openCameraCommand">
+            <summary>The backing field for <see cref="P:AttendanceLogin.ViewModels.DashboardViewModel.OpenCameraCommand"/>.</summary>
+        </member>
+        <member name="P:AttendanceLogin.ViewModels.DashboardViewModel.OpenCameraCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AttendanceLogin.ViewModels.DashboardViewModel.OpenCamera"/>.</summary>
+        </member>
+        <member name="F:AttendanceLogin.ViewModels.DashboardViewModel.captureSignatureCommand">
+            <summary>The backing field for <see cref="P:AttendanceLogin.ViewModels.DashboardViewModel.CaptureSignatureCommand"/>.</summary>
+        </member>
+        <member name="P:AttendanceLogin.ViewModels.DashboardViewModel.CaptureSignatureCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AttendanceLogin.ViewModels.DashboardViewModel.CaptureSignature"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TimeIn">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TimeIn" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ImageBase64">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ImageBase64" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SignatureBase64">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SignatureBase64" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TimeIn">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TimeIn" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ImageBase64">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ImageBase64" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SignatureBase64">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SignatureBase64" generated properties.</summary>
+        </member>
     </members>
 </doc>

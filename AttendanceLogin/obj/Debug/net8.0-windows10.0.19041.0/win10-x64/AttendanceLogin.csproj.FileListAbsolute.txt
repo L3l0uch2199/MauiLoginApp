@@ -8,6 +8,7 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-w
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Azure.Core.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Azure.Identity.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Bcl.Cryptography.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Data.SqlClient.dll
@@ -55,6 +56,11 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-w
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.WinUI.Native.Projection.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Core.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Windows.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.ClientModel.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Configuration.ConfigurationManager.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Diagnostics.EventLog.Messages.dll
@@ -113,12 +119,13 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-w
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\libSkiaSharp.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.WinUI.Native.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.WinUI.Native.winmd
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\libEGL.dll
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\libGLESv2.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
-C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AttendanceLogin.csproj.AssemblyReference.cache
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
@@ -131,8 +138,15 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-w
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AttendanceLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -189,6 +203,7 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-w
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AttendanceLogin.AssemblyInfoInputs.cache
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AttendanceLogin.AssemblyInfo.cs
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AttendanceLogin.csproj.CoreCompileInputs.cache
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AttendanceLogin.sourcelink.json
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Attendan.5F6BA3EC.Up2Date
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AttendanceLogin.dll
@@ -212,3 +227,4 @@ C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-w
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\PDSRVR2\source\repos\AttendanceLogin\AttendanceLogin\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\.winmd_cache\$SkiaSharp.Views.WinUI.Native.winmd_638811997420000000.json
