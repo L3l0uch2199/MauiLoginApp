@@ -1,4 +1,7 @@
-namespace AttendanceLogin;
+using System;
+using Microsoft.Maui.Controls;
+
+namespace AttendanceLogin.Views;
 
 public partial class NonAdminPage : ContentPage
 {
@@ -19,7 +22,14 @@ public partial class NonAdminPage : ContentPage
 
     private async void OnOpenDashboardClicked(object sender, EventArgs e)
     {
-        // Navigate to the DashboardPage and pass the username
-        await Navigation.PushAsync(new DashboardPage(_username));
+        try
+        {
+            // Make sure DashboardPage is accessible in the same namespace
+            await Navigation.PushAsync(new DashboardPage(_username));
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Navigation Error", $"Failed to open dashboard: {ex.Message}", "OK");
+        }
     }
 }

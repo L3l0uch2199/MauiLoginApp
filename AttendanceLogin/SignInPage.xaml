@@ -10,7 +10,7 @@
             <VerticalStackLayout Spacing="20"
                                  HorizontalOptions="Center"
                                  WidthRequest="300">
-                
+
                 <Label Text="Sign In"
                        FontSize="32"
                        HorizontalOptions="Center" />
@@ -24,7 +24,7 @@
                         BackgroundColor="Green"
                         TextColor="White"
                         Clicked="OnCreateAccountClicked" />
-                
+
             </VerticalStackLayout>
         </ScrollView>
     </Grid>

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Collections.ObjectModel;
-using AttendanceLogin.Models;
+using AttendanceLoginSharedModels;
 
 namespace AttendanceLogin;
 
@@ -55,7 +55,7 @@ public partial class AdminPage : ContentPage
 
             try
             {
-            string connectionString = "Server=192.168.0.63,1433;Database=Users;User Id=mauiuser;Password=maui1234;TrustServerCertificate=True;";
+                string connectionString = "Server=192.168.0.63,1433;Database=Users;User Id=mauiuser;Password=maui1234;TrustServerCertificate=True;";
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     await conn.OpenAsync();

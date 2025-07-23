@@ -1,4 +1,4 @@
-using Microsoft.Data.SqlClient; 
+using Microsoft.Data.SqlClient;
 using System;
 
 namespace AttendanceLogin;
@@ -39,7 +39,7 @@ public partial class SignInPage : ContentPage
             {
                 await conn.OpenAsync();
 
-                string query = "INSERT INTO UsersTbl (Username, Email, Password) VALUES (@Username, @Email, @Password)";
+                string query = "INSERT INTO UserTbl (Username, Email, Password) VALUES (@Username, @Email, @Password)";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Username", username);
