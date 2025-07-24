@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Timers;
-using AttendanceLogin.Views; // <-- This is where NonAdminPage resides
+using AttendanceLogin.Views;
 
 
 namespace AttendanceLogin;

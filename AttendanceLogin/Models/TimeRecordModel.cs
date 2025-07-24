@@ -2,7 +2,9 @@
 
 public class TimeRecordModel
 {
-    public DateTime TimeIn { get; set; }
-    public string ImageBase64 { get; set; }
+    public string Username { get; set; }
+    public DateTime Timestamp { get; set; }
+    public string ActionType { get; set; } // "TimeIn" or "TimeOut"
+    public string PhotoBase64 { get; set; }
     public string SignatureBase64 { get; set; }
 }

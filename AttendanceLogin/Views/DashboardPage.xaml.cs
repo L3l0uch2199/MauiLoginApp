@@ -1,12 +1,14 @@
-using Microsoft.Maui.Controls;
+﻿using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
 using SkiaSharp;
 using SkiaSharp.Views.Maui;
+using SkiaSharp.Views.Maui.Controls;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 
-namespace AttendanceLogin;
+namespace AttendanceLogin.Views;
 
 public partial class DashboardPage : ContentPage
 {
@@ -15,12 +17,18 @@ public partial class DashboardPage : ContentPage
     private bool _hasSignature = false;
     private SKPath _signaturePath = new();
     private SKPaint _paint;
+    private byte[] _imageBytes;
+    private byte[] _signatureBytes;
+
+    // Connection string to your MS SQL Server
+    private readonly string _connectionString = "Server=PDISRV2\\MSSQLSERVER03;Database=Users;User Id=mauiuser;Password=maui1234;TrustServerCertificate=True;";
 
     public DashboardPage(string username)
     {
         InitializeComponent();
         _username = username;
         TimeLabel.Text = $"User: {_username}";
+
         _paint = new SKPaint
         {
             Style = SKPaintStyle.Stroke,
@@ -29,24 +37,27 @@ public partial class DashboardPage : ContentPage
         };
     }
 
-    private async void OnCapturePhotoClicked(object sender, EventArgs e)
-    {
-        try
-        {
-            var photo = await MediaPicker.CapturePhotoAsync();
-            if (photo != null)
-            {
-                var stream = await photo.OpenReadAsync();
-                CapturedImage.Source = ImageSource.FromStream(() => stream);
-                _hasImage = true;
-                StatusLabel.Text = "";
-            }
-        }
-        catch (Exception ex)
-        {
-            StatusLabel.Text = "Photo capture failed.";
-        }
-    }
+    //private async void OnCapturePhotoClicked(object sender, EventArgs e)
+    //{
+    //    try
+    //    {
+    //        var photo = await MediaPicker.CapturePhotoAsync();
+    //        if (photo != null)
+    //        {
+    //            using var stream = await photo.OpenReadAsync();
+    //            using var ms = new MemoryStream();
+    //            await stream.CopyToAsync(ms);
+    //            _imageBytes = ms.ToArray();
+
+    //            _hasImage = true;
+    //            StatusLabel.Text = "";
+    //        }
+    //    }
+    //    catch
+    //    {
+    //        StatusLabel.Text = "Photo capture failed.";
+    //    }
+    //}
 
     private void OnSignatureTouch(object sender, SKTouchEventArgs e)
     {
@@ -80,25 +91,99 @@ public partial class DashboardPage : ContentPage
 
     private async void OnTimeInClicked(object sender, EventArgs e)
     {
-        if (!_hasImage || !_hasSignature)
+        //if (!_hasImage || !_hasSignature)
+        //{
+        //    StatusLabel.TextColor = Colors.Red;
+        //    StatusLabel.Text = "Error: Please take a photo and provide a signature before Time In.";
+        //    return;
+        //}
+
+        _signatureBytes = RenderSignatureToBytes();
+        var timestamp = DateTime.Now;
+
+        try
         {
-            StatusLabel.Text = "Error: Please take a photo and provide a signature before Time In.";
-            return;
+            using var conn = new SqlConnection(_connectionString);
+            await conn.OpenAsync();
+
+            string query = @"
+                UPDATE UserTbl
+                SET TimeIn = @TimeIn,  Signature = @Signature
+                WHERE Username = @Username AND TimeIn IS NULL";
+            //Photo = @Photo,
+            using var cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@Username", _username);
+            cmd.Parameters.AddWithValue("@TimeIn", timestamp);
+           // cmd.Parameters.AddWithValue("@Photo", _imageBytes);
+            cmd.Parameters.AddWithValue("@Signature", _signatureBytes);
+
+            int rows = await cmd.ExecuteNonQueryAsync();
+
+            if (rows > 0)
+            {
+                StatusLabel.TextColor = Colors.Green;
+                StatusLabel.Text = $"Time In saved at {timestamp:HH:mm:ss}";
+            }
+            else
+            {
+                StatusLabel.TextColor = Colors.Orange;
+                StatusLabel.Text = "You may have already timed in.";
+            }
         }
-
-        var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-        StatusLabel.TextColor = Colors.Green;
-        StatusLabel.Text = $"Time In recorded at {timestamp}";
-
-        // TODO: Add your API call logic here to save the time-in, image, and signature if needed
+        catch (Exception ex)
+        {
+            StatusLabel.TextColor = Colors.Red;
+            StatusLabel.Text = $"Error saving Time In: {ex.Message}";
+        }
     }
 
-    private void OnTimeOutClicked(object sender, EventArgs e)
+    private async void OnTimeOutClicked(object sender, EventArgs e)
     {
-        var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-        StatusLabel.TextColor = Colors.Blue;
-        StatusLabel.Text = $"Time Out recorded at {timestamp}";
+        var timestamp = DateTime.Now;
 
-        // TODO: Optional: Add logic for submitting time out to your API
+        try
+        {
+            using var conn = new SqlConnection(_connectionString);
+            await conn.OpenAsync();
+
+            string query = @"
+                UPDATE UserTbl
+                SET TimeOut = @TimeOut
+                WHERE Username = @Username AND CAST(TimeIn AS DATE) = CAST(GETDATE() AS DATE)";
+
+            using var cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@Username", _username);
+            cmd.Parameters.AddWithValue("@TimeOut", timestamp);
+
+            int rows = await cmd.ExecuteNonQueryAsync();
+
+            if (rows > 0)
+            {
+                StatusLabel.TextColor = Colors.Blue;
+                StatusLabel.Text = $"🕒 Time Out saved at {timestamp:HH:mm:ss}";
+            }
+            else
+            {
+                StatusLabel.TextColor = Colors.Red;
+                StatusLabel.Text = "❌ Error: No Time In record found for today.";
+            }
+        }
+        catch (Exception ex)
+        {
+            StatusLabel.TextColor = Colors.Red;
+            StatusLabel.Text = $"❌ Error saving Time Out: {ex.Message}";
+        }
+    }
+
+    private byte[] RenderSignatureToBytes()
+    {
+        using var surface = SKSurface.Create(new SKImageInfo(300, 150));
+        var canvas = surface.Canvas;
+        canvas.Clear(SKColors.White);
+        canvas.DrawPath(_signaturePath, _paint);
+
+        using var image = surface.Snapshot();
+        using var data = image.Encode(SKEncodedImageFormat.Png, 100);
+        return data.ToArray();
     }
 }

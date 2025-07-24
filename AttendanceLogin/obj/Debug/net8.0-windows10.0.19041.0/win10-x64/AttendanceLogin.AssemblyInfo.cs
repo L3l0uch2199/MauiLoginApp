@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AttendanceLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+70a4ce935d8b13427da7ebd5f5d8f67412078f35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4846ad4fb57ac627bb24dac2a66ab44bc5686302")]
 [assembly: System.Reflection.AssemblyProductAttribute("AttendanceLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AttendanceLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

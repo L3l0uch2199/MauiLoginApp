@@ -1,5 +1,6 @@
 using System;
 using Microsoft.Maui.Controls;
+using AttendanceLogin.Views;
 
 namespace AttendanceLogin.Views;
 
@@ -16,20 +17,17 @@ public partial class NonAdminPage : ContentPage
 
     private async void OnLogoutClicked(object sender, EventArgs e)
     {
-        // Navigate back to login page
         await Navigation.PopToRootAsync();
     }
 
     private async void OnOpenDashboardClicked(object sender, EventArgs e)
     {
-        try
+        //await Navigation.PushAsync(new DashboardPage(_username));
+        MainThread.BeginInvokeOnMainThread(async () =>
         {
-            // Make sure DashboardPage is accessible in the same namespace
             await Navigation.PushAsync(new DashboardPage(_username));
-        }
-        catch (Exception ex)
-        {
-            await DisplayAlert("Navigation Error", $"Failed to open dashboard: {ex.Message}", "OK");
-        }
+        });
     }
+
+
 }

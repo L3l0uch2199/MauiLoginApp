@@ -59300,6 +59300,7 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.16",
+      "SkiaSharp >= 3.119.0",
       "SkiaSharp.Views.Maui.Controls >= 3.119.0"
     ],
     "net8.0-ios18.0": [
@@ -59309,6 +59310,7 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.16",
+      "SkiaSharp >= 3.119.0",
       "SkiaSharp.Views.Maui.Controls >= 3.119.0"
     ],
     "net8.0-maccatalyst18.0": [
@@ -59318,6 +59320,7 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.16",
+      "SkiaSharp >= 3.119.0",
       "SkiaSharp.Views.Maui.Controls >= 3.119.0"
     ],
     "net8.0-windows10.0.19041": [
@@ -59326,6 +59329,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
+      "SkiaSharp >= 3.119.0",
       "SkiaSharp.Views.Maui.Controls >= 3.119.0"
     ]
   },
@@ -59422,6 +59426,10 @@
             "version": "[8.0.16, )",
             "autoReferenced": true
           },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[3.119.0, )"
+          },
           "SkiaSharp.Views.Maui.Controls": {
             "target": "Package",
             "version": "[3.119.0, )"
@@ -59499,6 +59507,10 @@
             "version": "[8.0.16, )",
             "autoReferenced": true
           },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[3.119.0, )"
+          },
           "SkiaSharp.Views.Maui.Controls": {
             "target": "Package",
             "version": "[3.119.0, )"
@@ -59564,6 +59576,10 @@
             "version": "[8.0.16, )",
             "autoReferenced": true
           },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[3.119.0, )"
+          },
           "SkiaSharp.Views.Maui.Controls": {
             "target": "Package",
             "version": "[3.119.0, )"
@@ -59623,6 +59639,10 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[8.0.100, )"
+          },
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[3.119.0, )"
           },
           "SkiaSharp.Views.Maui.Controls": {
             "target": "Package",
